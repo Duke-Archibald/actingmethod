@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 from cogs.Basic import DropDownView
 
-load_dotenv()
+# load_dotenv()
 TOKEN = os.getenv("TOKEN")
 TOKEN2 = os.getenv("TOKEN2")
 client = commands.Bot()

@@ -5,6 +5,7 @@ from nextcord.ext import commands
 from nextcord.abc import GuildChannel
 import nextcord
 from nextcord.types.channel import TextChannel
+import random
 
 import colorsFunc
 import loaders2
@@ -114,8 +115,7 @@ class Basic(commands.Cog):
 
     @nextcord.slash_command(name="deltest", guild_ids=[guildID], description="create channels")
     async def deltest(self, interaction: Interaction):
-        roles = [role for role in interaction.guild.roles]
-        for role1 in roles:
+        for role1 in [role for role in interaction.guild.roles]:
             if role1.name == "@everyone":
                 print("not", role1)
                 continue
@@ -126,6 +126,19 @@ class Basic(commands.Cog):
     @nextcord.slash_command(name="setup", guild_ids=[guildID], description="create channels")
     @commands.has_any_role(*["Admin"])
     async def setup(self, interaction: Interaction):
+        Rname = "selfBot"
+
+        if Rname in [role.name for role in interaction.guild.roles]:
+            pass
+        else:
+            await interaction.guild.create_role(name=Rname)
+        role = nextcord.utils.get(interaction.guild.roles, name=Rname)
+        member = interaction.guild.get_member(1005525121496268830)
+        if Rname in [role.name for role in member.roles]:
+            pass
+        else:
+            await member.add_roles(role)
+
         categoryName = "Acting Method"
         toAddChannelList = ["pathways-menu", "digestion-update", "trash-bot"]
         guildChannels = interaction.guild.channels
@@ -178,22 +191,17 @@ class Basic(commands.Cog):
                             guild_ids=[guildID],
                             description="dropdown test")
     @commands.has_any_role(*["Admin"])
-    async def actionOnBot(self, interaction: Interaction):
-        await interaction.guild.create_role(name=f"selfbot")
-        role = nextcord.utils.get(interaction.guild.roles, name=f"selfbot")
-        await self.client.user.add_roles(role)
+    async def actionOnBot(self, interaction: Interaction, hexinput=SlashOption(required=False)):        
+        if hexinput:
+            color = hexinput
+        else:
+            color = "%06x" % random.randint(0, 0xFFFFFF)
+            
+        print(role)
+        print(color)
+        await role.edit(colour=nextcord.Colour(int(color,16)))
+        await interaction.response.send_message(f"collor changed to {color}")
 
 def setup(client):
     client.add_cog(Basic(client))
     print("basic loaded")
-# f"create or choose a channel for the digestion update ('lom potion', 'lom ritual', and digestion update)\n"
-# f"create or choose a channel for the pathways menu (choosing of one's pathways)\n"
-# f"create or choose a channel for the bot trash (all system messages from the bot (update notification and admin command output)\n"
-# f"\n"
-# f"use the command\n"
-# f"lom Setup channels (lom s c)[ID of Pathways Menu] [ID of Digestion Update] [ID of bot trash] "
-# f"(order is important) ---to assign the channel for the bot messages\n"
-# f"lom Setup roles (lom s ro) ---to create all the roles\n"
-# f"lom Setup emote (lom s e) ---to create all the emoji\n"
-# f"lom Setup menu (lom s m) ---to create the reaction menu\n"
-# f"all command are not case sensitive\n"
