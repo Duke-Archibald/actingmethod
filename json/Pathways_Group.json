@@ -1,0 +1,42 @@
+{
+  "Lord_of_the_Mysteries": {
+    "1": "Pathway:Fool",
+    "2": "Pathway:Door",
+    "3": "Pathway:Error"
+  },
+  "God_Almighty": {
+    "1":"Pathway:Hanged_Man",
+    "2":"Pathway:Visionary",
+    "3":"Pathway:Tyrant",
+    "4":"Pathway:Sun",
+    "5":"Pathway:White_Tower"
+  },
+  "Eternal_Darkness": {
+    "1": "Pathway:Twilight_Giant",
+    "2": "Pathway:Darkness",
+    "3": "Pathway:Death"
+  },
+  "Scourge_of_Destruction": {
+    "1": "Pathway:Red_Priest",
+    "2": "Pathway:Demoness"
+  },
+  "Phantom_of_Knowledge": {
+    "1": "Pathway:Paragon",
+    "2": "Pathway:Hermit"
+  },
+  "Key_of_Light": {
+    "1": "Pathway:Wheel_of_Fortune"
+  },
+  "Goddess_of_Origin": {
+    "1": "Pathway:Mother",
+    "2": "Pathway:Moon"
+  },
+  "The_Anarchy": {
+    "1": "Pathway:Justiciar",
+    "2": "Pathway:Black_Emperor"
+  },
+  "Father_of_Devils": {
+    "1": "Pathway:Chained",
+    "2": "Pathway:Abyss"
+  }
+}

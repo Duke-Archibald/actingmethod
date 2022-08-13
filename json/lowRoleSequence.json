@@ -1,0 +1,251 @@
+
+
+{
+       "Pathway:Seer": {
+          "0": "Fool",
+          "1": "Attendant_of_Mysteries",
+          "2": "Miracle_Invoker",
+          "3": "Scholar_of_Yore",
+          "4": "Bizarro_Sorcerer",
+          "5": "Seer-Mid_Sequence",
+          "6": "Seer-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Lord_of_the_Mysteries"
+       },
+       "Pathway:Apprentice": {
+          "0": "Door",
+          "1": "Key_of_Stars",
+          "2": "Planeswalker",
+          "3": "Wanderer",
+          "4": "Secrets_Sorcerer",
+          "5": "Apprentice-Mid_Sequence",
+          "6": "Apprentice-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Lord_of_the_Mysteries"
+       },
+       "Pathway:Marauder": {
+          "0": "Error",
+          "1": "Worm_of_Time",
+          "2": "Trojan_Horse_of_Destiny",
+          "3": "Deception_Magister",
+          "4": "Parasite",
+          "5": "Marauder-Mid_Sequence",
+          "6": "Marauder-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Lord_of_the_Mysteries"
+       },
+       "Pathway:Secrets_Supplicant": {
+          "0": "Hanged_Man",
+          "1": "Dark_Angel",
+          "2": "SSUnknown",
+          "3": "Trinity_Templar",
+          "4": "Dark_Knight",
+          "5": "Secrets-Mid_Sequence",
+          "6": "Secrets-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "GOD"
+       },
+       "Pathway:Spectator": {
+          "0": "Visionary",
+          "1": "Author",
+          "2": "Discerner",
+          "3": "Dream_Weaver",
+          "4": "Manipulator",
+          "5": "Spectator-Mid_Sequence",
+          "6": "Spectator-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "GOD"
+       },
+       "Pathway:Sailor": {
+          "0": "Tyrant",
+          "1": "Thunder_God",
+          "2": "Calamity",
+          "3": "Sea_King",
+          "4": "Cataclysmic-Interrer",
+          "5": "Sailor-Mid_Sequence",
+          "6": "Sailor-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "GOD"
+       },
+       "Pathway:Bard": {
+          "0": "Sun",
+          "1": "White_Angel",
+          "2": "Light_Pursuer",
+          "3": "Justice_Mentor",
+          "4": "Unshadowed",
+          "5": "Bard-Mid_Sequence",
+          "6": "Bard-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "GOD"
+       },
+       "Pathway:Reader": {
+          "0": "White_Tower",
+          "1": "Eye_of_Omniscience",
+          "2": "R2Unknown",
+          "3": "R3Unknown",
+          "4": "Prophet",
+          "5": "Reader-Mid_Sequence",
+          "6": "Reader-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "GOD"
+       },
+
+       "Pathway:Warrior": {
+          "0": "Twilight_Giant",
+          "1": "Hand_of_God",
+          "2": "WUnknown",
+          "3": "Silver_Knight",
+          "4": "Demon_Hunter",
+          "5": "Warrior-Mid_Sequence",
+          "6": "Warrior-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Eternal_Darkness"
+       },
+       "Pathway:Sleepless": {
+          "0": "Darkness",
+          "1": "Knight_of_Misfortune",
+          "2": "Servant_of_Concealment",
+          "3": "Fear_Bishop",
+          "4": "Night_Watcher",
+          "5": "Sleepless-Mid_Sequence",
+          "6": "Sleepless-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Eternal_Darkness"
+       },
+       "Pathway:Corpse_Collector": {
+           "0": "Death",
+           "1": "Pale_Emperor",
+           "2": "Death_Consul",
+           "3": "Ferryman",
+           "4": "Undying",
+           "5": "Corpse_Collector-Mid_Sequence",
+           "6": "Corpse_Collector-Low_Sequence",
+          "10": "not_a_beyonder",
+           "-1": "Eternal_Darkness"
+       },
+
+       "Pathway:Hunter": {
+          "0": "Red_Priest",
+          "1": "Conqueror",
+          "2": "Weather_Warlock",
+          "3": "War_Bishop",
+          "4": "Iron-Blooded_Knight",
+          "5": "Hunter-Mid_Sequence",
+          "6": "Hunter-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Scourge_of_Destruction"
+       },
+       "Pathway:Assassin": {
+           "0": "Demoness",
+           "1": "Apocalypse",
+           "2": "Catastrophe",
+           "3": "Unaging",
+           "4": "Despair",
+           "5": "Assassin-Mid_Sequence",
+           "6": "Assassin-Low_Sequence",
+          "10": "not_a_beyonder",
+           "-1": "Scourge_of_Destruction"
+       },
+
+       "Pathway:Savant": {
+          "0": "Paragon",
+          "1": "Luminary",
+          "2": "Knowledge_Magister",
+          "3": "Arcane_Scholar",
+          "4": "Alchemist",
+          "5": "Savant-Mid_Sequence",
+          "6": "Savant-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Phantom_of_Knowledge"
+       },
+       "Pathway:Mystery_Pryer": {
+           "0": "Hermit",
+           "1": "Knowledge_Emperor",
+           "2": "Sage",
+           "3": "Clairvoyant",
+           "4": "Mysticologist",
+           "5": "Mystery_Pryer-Mid_Sequence",
+           "6": "Mystery_Pryer-Low_Sequence",
+          "10": "not_a_beyonder",
+           "-1": "Phantom_of_Knowledge"
+       },
+       "Pathway:Monster": {
+           "0": "Wheel_of_Fortune",
+           "1": "Snake_of_Mercury",
+           "2": "Soothsayer",
+           "3": "Chaos_Itinerant",
+           "4": "Doom_Sorcerer",
+           "5": "Monster-Mid_Sequence",
+           "6": "Monster-Low_Sequence",
+          "10": "not_a_beyonder",
+           "-1": "Key_of_Light"
+       },
+
+       "Pathway:Apothecary": {
+          "0": "Moon",
+          "1": "Goddess_of_Beauty",
+          "2": "Progenitor",
+          "3": "Master_Summoner",
+          "4": "Shaman_King",
+          "5": "Apothecary-Mid_Sequence",
+          "6": "Apothecary-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Goddess_of_Origin"
+       },
+       "Pathway:Planter": {
+           "0": "Mother",
+           "1": "Nature_Ascetic",
+           "2": "Dowager_of_Desolation",
+           "3": "Pallbearer",
+           "4": "Ancient_Metallurgist",
+           "5": "Planter-Mid_Sequence",
+           "6": "Planter-Low_Sequence",
+          "10": "not_a_beyonder",
+           "-1": "Goddess_of_Origin"
+       },
+
+       "Pathway:Arbiter": {
+          "0": "Justiciar",
+          "1": "Hand_of_Order",
+          "2": "Balancer",
+          "3": "Chaos_Hunter",
+          "4": "Imperative_Mage",
+          "5": "Arbiter-Mid_Sequence",
+          "6": "Arbiter-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "The_Anarchy"
+       },
+       "Pathway:Lawyer": {
+           "0": "Black_Emperor",
+           "1": "Prince_of_Abolition",
+           "2": "Duke_of_Entropy",
+           "3": "Frenzied_Mage",
+           "4": "Earl_of_the_Fallen",
+           "5": "Lawyer-Mid_Sequence",
+           "6": "Lawyer-Low_Sequence",
+          "10": "not_a_beyonder",
+           "-1": "The_Anarchy"
+       },
+       "Pathway:Prisoner": {
+          "0": "Chained",
+          "1": "Abomination",
+          "2": "Ancient_Bane",
+          "3": "Disciple_of_Silence",
+          "4": "Puppet",
+          "5": "Prisoner-Mid_Sequence",
+          "6": "Prisoner-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Father_of_Devils"
+       },
+       "Pathway:Criminal": {
+          "0": "Abyss",
+          "1": "Filthy_Monarch",
+          "2": "CUnknown",
+          "3": "Blatherer",
+          "4": "Demon",
+          "5": "Criminal-Mid_Sequence",
+          "6": "Criminal-Low_Sequence",
+         "10": "not_a_beyonder",
+          "-1": "Father_of_Devils"
+       }
+}
