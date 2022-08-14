@@ -87,3 +87,4 @@ def to_json():
 
 data_seq_to_csv()
 to_json()
+conn.close()

@@ -5,3 +5,4 @@ def test():
     conn = sqlite3.connect('./resources/acting_method.db')
     cursor = conn.execute("select ID FROM guilds")
     print([c for c in cursor])
+    conn.close()

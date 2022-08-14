@@ -9,16 +9,16 @@ class DropDown(nextcord.ui.Select):
     def __init__(self):
         self.pathways = []
         self.conn = sqlite3.connect('./resources/acting_method.db')
-        pathwaysCursor = self.conn.execute(f"SELECT pathways_name"
+        pathwaysCursor = self.conn.execute(f"SELECT Name"
                                            f" FROM pathways")
         for path in pathwaysCursor:
             self.pathways.append(path[0])
-        print(self.pathways)
+        # print(self.pathways)
         selectoption = []
         for pathway in self.pathways:
             selectoption.append(nextcord.SelectOption(label=pathway))
         super().__init__(placeholder="choose one pathway", options=selectoption,)
-
+        self.conn.close()
     async def callback(self, interaction: Interaction):
         await interaction.response.defer()
 
@@ -28,7 +28,7 @@ class DropDown(nextcord.ui.Select):
         for userrole in userroles:
             if userrole.name.replace("pathway:", "") in self.pathways:
                 await interaction.user.remove_roles(userrole)
-                seqQuery = f"SELECT sequences_name,sequences_num FROM sequences where sequences_pathway = '{userrole.name.replace('pathway:', '')}'"
+                seqQuery = f"SELECT Name,Order FROM sequences where Pathway = '{userrole.name.replace('pathway:', '')}'"
                 sequencesCursor = self.conn.execute(seqQuery)
                 for seq, num in sequencesCursor:
                     if num in [0, 1, 2, 3, 4]:
