@@ -1,16 +1,12 @@
+import random
 import sqlite3
-import aiosqlite
+
+from resources import setupFile
+import nextcord
 from nextcord import Interaction, SlashOption
 from nextcord.ext import commands
-from nextcord.abc import GuildChannel
-import nextcord
-from nextcord.types.channel import TextChannel
-import random
 
-import colorsFunc
-import loaders2
-import Loaders
-from testing import sqlittest
+from resources.dropview import DropDownView
 
 
 class ButtonsView(nextcord.ui.View):
@@ -19,38 +15,9 @@ class ButtonsView(nextcord.ui.View):
         self.value = None
 
 
-class DropDown(nextcord.ui.Select):
-    def __init__(self):
-        self.pathways = Loaders.load_Pathway()
-        print(self.pathways)
-        selectoption = []
-        for pathway in self.pathways:
-            selectoption.append(nextcord.SelectOption(label=pathway))
-        super().__init__(placeholder="choose one pathway", options=selectoption)
-
-    async def callback(self, interaction: Interaction):
-        role = nextcord.utils.get(interaction.guild.roles, name=f"{self.values[0]}")
-
-        # userroles = interaction.user.roles
-        # for userrole in userroles:
-        #     if userrole in pathways:
-        #         await interaction.user.remove_roles(userrole)
-        await interaction.user.add_roles(role)
-        await interaction.user.send(f"you chose the {self.values[0]} pathway")
-        await interaction.response.defer()
-
-
-class DropDownView(nextcord.ui.View):
-    def __init__(self):
-        super().__init__()
-        self.add_item(DropDown())
-
-
 class Basic(commands.Cog):
     def __init__(self, client):
         self.client = client
-        self.pathways = Loaders.load_Pathway()
-        self.colors = Loaders.load_Color()
 
     guildID = 1005560781603090504
 
@@ -60,60 +27,10 @@ class Basic(commands.Cog):
     async def basic_command(self, interaction: Interaction):
         await interaction.response.send_message(f'nothing')
 
-    async def createRoles(self, interaction: Interaction):
-        x = 0
-        # color = colorsFunc.linear_gradient(self.colors[x],"#5B626B")
-
-        await interaction.response.defer()
-        # await sqlittest.createRoles()
-        conn = sqlite3.connect('./acting_method.db')
-        print(conn)
-        print("Opened database successfully")
-
-        cursor = conn.execute("SELECT sequences_name, sequences_color,sequences_num from sequences")
-        pathway = "none"
-        for seq in cursor:
-            roles = [role for role in interaction.guild.roles]
-            print("roles", roles)
-            if seq[2] == 0:
-                pathway = seq[0]
-            if x >= 10:
-                continue
-            if seq[0] in [role.name for role in roles]:
-                x += 1
-                print("already there", x)
-            else:
-                x += 1
-                await interaction.followup.send(f"creating {seq[0]}")
-                if seq[2] == 0:
-                    await interaction.guild.create_role(name=f"pathway:{seq[0]}",
-                                                        colour=nextcord.Colour(int(seq[1], 16)), hoist=True)
-                    await interaction.guild.create_role(name=f"{seq[0]}", colour=nextcord.Colour(int(seq[1], 16)))
-                elif seq[2] == 5:
-                    if f"{pathway} pathway mid sequence" in [role.name for role in roles]:
-                        pass
-                    else:
-                        await interaction.guild.create_role(name=f"{pathway} pathway mid sequence",
-                                                        colour=nextcord.Colour(int(seq[1], 16)))
-                elif seq[2] == 6:
-                    continue
-                elif seq[2] == 7:
-                    continue
-                elif seq[2] == 8:
-                    if f"{pathway} pathway low sequence" in [role.name for role in roles]:
-                        pass
-                    else:
-                        await interaction.guild.create_role(name=f"{pathway} pathway low sequence",
-                                                        colour=nextcord.Colour(int(seq[1], 16)))
-                elif seq[2] == 9:
-                    continue
-                else:
-                    await interaction.guild.create_role(name=f"{seq[0]}", colour=nextcord.Colour(int(seq[1], 16)))
-
-        await interaction.followup.send("done")
         # await interaction.response.send_message("done")
 
-    @nextcord.slash_command(name="deltest", guild_ids=[guildID], description="create channels")
+    @nextcord.slash_command(name="deltest", guild_ids=[guildID],
+                            description="delete ALL roles use carefully will be removed after testing")
     async def deltest(self, interaction: Interaction):
         for role1 in [role for role in interaction.guild.roles]:
             if role1.name == "@everyone":
@@ -126,81 +43,38 @@ class Basic(commands.Cog):
     @nextcord.slash_command(name="setup", guild_ids=[guildID], description="create channels")
     @commands.has_any_role(*["Admin"])
     async def setup(self, interaction: Interaction):
-        Rname = "selfBot"
-
-        if Rname in [role.name for role in interaction.guild.roles]:
-            pass
-        else:
-            await interaction.guild.create_role(name=Rname)
-        role = nextcord.utils.get(interaction.guild.roles, name=Rname)
-        member = interaction.guild.get_member(1005525121496268830)
-        if Rname in [role.name for role in member.roles]:
-            pass
-        else:
-            await member.add_roles(role)
-
-        categoryName = "Acting Method"
-        toAddChannelList = ["pathways-menu", "digestion-update", "trash-bot"]
-        guildChannels = interaction.guild.channels
-        guildChannelList = []
-        guildChannelDict = {}
-
-        for channel in guildChannels:
-            guildChannelList.append(channel.name)
-            guildChannelDict[channel.name] = channel.id
-        if categoryName not in guildChannelList:
-            category = await interaction.guild.create_category(name=categoryName)
-        else:
-            category = self.client.get_channel(guildChannelDict[categoryName])
-        print(guildChannelList)
-        for channelname in toAddChannelList:
-            print(channelname)
-            print(channelname not in guildChannelList)
-            if channelname not in guildChannelList:
-                channel = await interaction.guild.create_text_channel(name=channelname, category=category)
-                print(channel)
-        await self.createRoles(interaction=interaction)
+        await setupFile.setup_bot_role(interaction)
+        await setupFile.channel_setup(interaction)
+        await setupFile.createRoles(interaction)
 
     @nextcord.slash_command(name="drop",
                             guild_ids=[guildID],
                             description="dropdown test")
     @commands.has_any_role(*["Admin"])
     async def drop(self, interaction: Interaction):
-        try:
-            with open("test.txt", "r") as f:
-                view = DropDownView()
+        view = DropDownView()
+        channel = nextcord.utils.get(interaction.guild.channels, name="pathways-menu")
+        message = await channel.send("choose your pathway", view=view)
+        # with open("test.txt", "w", encoding="utf8") as f:
+        #     f.write(str(message.id))
+        #     f.write("\n")
+        #     f.write(str(message.channel.id))
 
-                ids = f.readlines()
-                message_id = int(ids[0])
-                channel = self.client.get_channel(int(ids[1]))
-                msg = await channel.fetch_message(message_id)
-                await msg.edit(content=" choose your pathway", view=view)
-                await interaction.response.send_message("pathways reloaded")
-        except IOError:
-            view = DropDownView()
-            channel = nextcord.utils.get(interaction.guild.channels, name="pathways-menu")
-            message = await channel.send("choose your pathway", view=view)
-            with open("test.txt", "w", encoding="utf8") as f:
-                f.write(str(message.id))
-                f.write("\n")
-
-                f.write(str(message.channel.id))
-            print(message.id)
-            print(message.channel.id)
-    @nextcord.slash_command(name="botaction",
+    @nextcord.slash_command(name="botcolor",
                             guild_ids=[guildID],
                             description="dropdown test")
     @commands.has_any_role(*["Admin"])
-    async def actionOnBot(self, interaction: Interaction, hexinput=SlashOption(required=False)):        
+    async def botcolor(self, interaction: Interaction, hexinput=SlashOption(required=False)):
+        Rname = "selfBot"
+
+        role = nextcord.utils.get(interaction.guild.roles, name=Rname)
         if hexinput:
             color = hexinput
         else:
             color = "%06x" % random.randint(0, 0xFFFFFF)
-            
-        print(role)
-        print(color)
-        await role.edit(colour=nextcord.Colour(int(color,16)))
-        await interaction.response.send_message(f"collor changed to {color}")
+        await role.edit(colour=nextcord.Colour(int(color, 16)))
+        await interaction.response.send_message(f"bot color changed to {color}")
+
 
 def setup(client):
     client.add_cog(Basic(client))

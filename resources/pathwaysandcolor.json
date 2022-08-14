@@ -1,0 +1,944 @@
+{
+  "Lord of the Mysteries": {
+    "Fool": {
+      "Fool": {
+        "Sequence_num": "0",
+        "Sequence_color": "8a6db6"
+      },
+      "Attendant of Mysteries": {
+        "Sequence_num": "1",
+        "Sequence_color": "9379ba"
+      },
+      "Miracle Invoker": {
+        "Sequence_num": "2",
+        "Sequence_color": "9c85bf"
+      },
+      "Scholar of Yore": {
+        "Sequence_num": "3",
+        "Sequence_color": "a591c4"
+      },
+      "Bizarro Sorcerer": {
+        "Sequence_num": "4",
+        "Sequence_color": "ae9dc9"
+      },
+      "Marionettist": {
+        "Sequence_num": "5",
+        "Sequence_color": "b8a9ce"
+      },
+      "Faceless": {
+        "Sequence_num": "6",
+        "Sequence_color": "c1b5d2"
+      },
+      "Magician": {
+        "Sequence_num": "7",
+        "Sequence_color": "cac1d7"
+      },
+      "Clown": {
+        "Sequence_num": "8",
+        "Sequence_color": "d3cddc"
+      },
+      "Seer": {
+        "Sequence_num": "9",
+        "Sequence_color": "dcd9e1"
+      }
+    },
+    "Door": {
+      "Door": {
+        "Sequence_num": "0",
+        "Sequence_color": "3ca9d7"
+      },
+      "Key of Stars": {
+        "Sequence_num": "1",
+        "Sequence_color": "4dafd8"
+      },
+      "Planeswalker": {
+        "Sequence_num": "2",
+        "Sequence_color": "5eb5da"
+      },
+      "Wanderer": {
+        "Sequence_num": "3",
+        "Sequence_color": "6fbbdb"
+      },
+      "Secrets Sorcerer": {
+        "Sequence_num": "4",
+        "Sequence_color": "80c1dd"
+      },
+      "Traveler": {
+        "Sequence_num": "5",
+        "Sequence_color": "91c7de"
+      },
+      "Scribe": {
+        "Sequence_num": "6",
+        "Sequence_color": "a2cde0"
+      },
+      "Astrologer": {
+        "Sequence_num": "7",
+        "Sequence_color": "b3d3e1"
+      },
+      "Trickmaster": {
+        "Sequence_num": "8",
+        "Sequence_color": "c4d9e3"
+      },
+      "Apprentice": {
+        "Sequence_num": "9",
+        "Sequence_color": "d5dfe4"
+      }
+    },
+    "Error": {
+      "Error": {
+        "Sequence_num": "0",
+        "Sequence_color": "7c0dfd"
+      },
+      "Worm of Time": {
+        "Sequence_num": "1",
+        "Sequence_color": "8622fa"
+      },
+      "Trojan Horse of Destiny": {
+        "Sequence_num": "2",
+        "Sequence_color": "9138f8"
+      },
+      "Mentor of Deceit": {
+        "Sequence_num": "3",
+        "Sequence_color": "9b4ef6"
+      },
+      "Parasite": {
+        "Sequence_num": "4",
+        "Sequence_color": "a663f3"
+      },
+      "Dream Stealer": {
+        "Sequence_num": "5",
+        "Sequence_color": "b179f1"
+      },
+      "Prometheus": {
+        "Sequence_num": "6",
+        "Sequence_color": "bb8fef"
+      },
+      "Cryptologist": {
+        "Sequence_num": "7",
+        "Sequence_color": "c6a4ec"
+      },
+      "Swindler": {
+        "Sequence_num": "8",
+        "Sequence_color": "d0baea"
+      },
+      "Marauder": {
+        "Sequence_num": "9",
+        "Sequence_color": "dbd0e8"
+      }
+    }
+  },
+  "God Almighty": {
+    "Visionary": {
+      "Visionary": {
+        "Sequence_num": "0",
+        "Sequence_color": "d4c49b"
+      },
+      "Author": {
+        "Sequence_num": "1",
+        "Sequence_color": "d5c7a2"
+      },
+      "Discerner": {
+        "Sequence_num": "2",
+        "Sequence_color": "d7caaa"
+      },
+      "Dream Weaver": {
+        "Sequence_num": "3",
+        "Sequence_color": "d9ceb1"
+      },
+      "Manipulator": {
+        "Sequence_num": "4",
+        "Sequence_color": "dbd1b9"
+      },
+      "Dreamwalker": {
+        "Sequence_num": "5",
+        "Sequence_color": "ddd5c0"
+      },
+      "Hypnotist": {
+        "Sequence_num": "6",
+        "Sequence_color": "ded8c8"
+      },
+      "Psychiatrist": {
+        "Sequence_num": "7",
+        "Sequence_color": "e0dbcf"
+      },
+      "Telepathist": {
+        "Sequence_num": "8",
+        "Sequence_color": "e2dfd7"
+      },
+      "Spectator": {
+        "Sequence_num": "9",
+        "Sequence_color": "e4e2de"
+      }
+    },
+    "Hanged Man": {
+      "Hanged Man": {
+        "Sequence_num": "0",
+        "Sequence_color": "980b1b"
+      },
+      "Dark Angel": {
+        "Sequence_num": "1",
+        "Sequence_color": "9f202f"
+      },
+      "Profane Presbyter": {
+        "Sequence_num": "2",
+        "Sequence_color": "a73643"
+      },
+      "Trinity Templar": {
+        "Sequence_num": "3",
+        "Sequence_color": "af4c57"
+      },
+      "Dark Knight": {
+        "Sequence_num": "4",
+        "Sequence_color": "b7626c"
+      },
+      "Shepherd": {
+        "Sequence_num": "5",
+        "Sequence_color": "bf7880"
+      },
+      "Rose Bishop": {
+        "Sequence_num": "6",
+        "Sequence_color": "c68e94"
+      },
+      "Shadow Ascetic": {
+        "Sequence_num": "7",
+        "Sequence_color": "cea4a9"
+      },
+      "Listener": {
+        "Sequence_num": "8",
+        "Sequence_color": "d6babd"
+      },
+      "Secrets Supplicant": {
+        "Sequence_num": "9",
+        "Sequence_color": "ded0d1"
+      }
+    },
+    "Sun": {
+      "Sun": {
+        "Sequence_num": "0",
+        "Sequence_color": "ffd414"
+      },
+      "White Angel": {
+        "Sequence_num": "1",
+        "Sequence_color": "fcd529"
+      },
+      "Lightseeker": {
+        "Sequence_num": "2",
+        "Sequence_color": "fad73e"
+      },
+      "Justice Mentor": {
+        "Sequence_num": "3",
+        "Sequence_color": "f7d953"
+      },
+      "Unshadowed": {
+        "Sequence_num": "4",
+        "Sequence_color": "f5db68"
+      },
+      "Priest of Light": {
+        "Sequence_num": "5",
+        "Sequence_color": "f2dd7d"
+      },
+      "Notary": {
+        "Sequence_num": "6",
+        "Sequence_color": "f0de92"
+      },
+      "Solar High Priest": {
+        "Sequence_num": "7",
+        "Sequence_color": "ede0a7"
+      },
+      "Light Supplicant": {
+        "Sequence_num": "8",
+        "Sequence_color": "ebe2bc"
+      },
+      "Bard": {
+        "Sequence_num": "9",
+        "Sequence_color": "e8e4d1"
+      }
+    },
+    "Tyrant": {
+      "Tyrant": {
+        "Sequence_num": "0",
+        "Sequence_color": "001075"
+      },
+      "Thunder God": {
+        "Sequence_num": "1",
+        "Sequence_color": "172580"
+      },
+      "Calamity": {
+        "Sequence_num": "2",
+        "Sequence_color": "2e3a8b"
+      },
+      "Sea King": {
+        "Sequence_num": "3",
+        "Sequence_color": "455096"
+      },
+      "Cataclysmic Interrer": {
+        "Sequence_num": "4",
+        "Sequence_color": "5c65a2"
+      },
+      "Ocean Songster": {
+        "Sequence_num": "5",
+        "Sequence_color": "737bad"
+      },
+      "Wind-blessed": {
+        "Sequence_num": "6",
+        "Sequence_color": "8a90b8"
+      },
+      "Seafarer": {
+        "Sequence_num": "7",
+        "Sequence_color": "a1a5c4"
+      },
+      "Folk of Rage": {
+        "Sequence_num": "8",
+        "Sequence_color": "b8bbcf"
+      },
+      "Sailor": {
+        "Sequence_num": "9",
+        "Sequence_color": "cfd0da"
+      }
+    },
+    "White Tower": {
+      "White Tower": {
+        "Sequence_num": "0",
+        "Sequence_color": "ffffff"
+      },
+      "Omniscient Eye": {
+        "Sequence_num": "1",
+        "Sequence_color": "fcfcfc"
+      },
+      "Wisdom Angel": {
+        "Sequence_num": "2",
+        "Sequence_color": "fafafa"
+      },
+      "Cognizer": {
+        "Sequence_num": "3",
+        "Sequence_color": "f7f7f7"
+      },
+      "Prophet": {
+        "Sequence_num": "4",
+        "Sequence_color": "f5f5f5"
+      },
+      "Mysticism Magister": {
+        "Sequence_num": "5",
+        "Sequence_color": "f2f2f2"
+      },
+      "Polymath": {
+        "Sequence_num": "6",
+        "Sequence_color": "f0f0f0"
+      },
+      "Knowledge Keeper": {
+        "Sequence_num": "7",
+        "Sequence_color": "ededed"
+      },
+      "Student of Ratiocination": {
+        "Sequence_num": "8",
+        "Sequence_color": "ebebeb"
+      },
+      "Reader": {
+        "Sequence_num": "9",
+        "Sequence_color": "e8e8e8"
+      }
+    }
+  },
+  "Eternal Darkness": {
+    "Darkness": {
+      "Darkness": {
+        "Sequence_num": "0",
+        "Sequence_color": "6a1cca"
+      },
+      "Knight of Misfortune": {
+        "Sequence_num": "1",
+        "Sequence_color": "7630cc"
+      },
+      "Servant of Concealment": {
+        "Sequence_num": "2",
+        "Sequence_color": "8244cf"
+      },
+      "Horror Bishop": {
+        "Sequence_num": "3",
+        "Sequence_color": "8f58d2"
+      },
+      "Night Watcher": {
+        "Sequence_num": "4",
+        "Sequence_color": "9b6cd5"
+      },
+      "Spirit Warlock": {
+        "Sequence_num": "5",
+        "Sequence_color": "a881d8"
+      },
+      "Soul Assurer": {
+        "Sequence_num": "6",
+        "Sequence_color": "b495da"
+      },
+      "Nightmare": {
+        "Sequence_num": "7",
+        "Sequence_color": "c0a9dd"
+      },
+      "Midnight Poet": {
+        "Sequence_num": "8",
+        "Sequence_color": "cdbde0"
+      },
+      "Sleepless": {
+        "Sequence_num": "9",
+        "Sequence_color": "d9d1e3"
+      }
+    },
+    "Twilight Giant": {
+      "Twilight Giant": {
+        "Sequence_num": "0",
+        "Sequence_color": "c75f00"
+      },
+      "Hand of God": {
+        "Sequence_num": "1",
+        "Sequence_color": "ca6c17"
+      },
+      "Glory": {
+        "Sequence_num": "2",
+        "Sequence_color": "cd7a2e"
+      },
+      "Silver Knight": {
+        "Sequence_num": "3",
+        "Sequence_color": "d08745"
+      },
+      "Demon Hunter": {
+        "Sequence_num": "4",
+        "Sequence_color": "d3955c"
+      },
+      "Guardian": {
+        "Sequence_num": "5",
+        "Sequence_color": "d6a273"
+      },
+      "Dawn Paladin": {
+        "Sequence_num": "6",
+        "Sequence_color": "d9b08a"
+      },
+      "Weapon Master": {
+        "Sequence_num": "7",
+        "Sequence_color": "dcbda1"
+      },
+      "Pugilist": {
+        "Sequence_num": "8",
+        "Sequence_color": "dfcbb8"
+      },
+      "Warrior": {
+        "Sequence_num": "9",
+        "Sequence_color": "e2d8cf"
+      }
+    },
+    "Death": {
+      "Death": {
+        "Sequence_num": "0",
+        "Sequence_color": "f5e98a"
+      },
+      "Pale Emperor": {
+        "Sequence_num": "1",
+        "Sequence_color": "f3e893"
+      },
+      "Death Consul": {
+        "Sequence_num": "2",
+        "Sequence_color": "f2e89c"
+      },
+      "Ferryman": {
+        "Sequence_num": "3",
+        "Sequence_color": "f0e8a5"
+      },
+      "Undying": {
+        "Sequence_num": "4",
+        "Sequence_color": "efe7ae"
+      },
+      "Gatekeeper": {
+        "Sequence_num": "5",
+        "Sequence_color": "ede7b8"
+      },
+      "Spirit Guide": {
+        "Sequence_num": "6",
+        "Sequence_color": "ece7c1"
+      },
+      "Spirit Medium": {
+        "Sequence_num": "7",
+        "Sequence_color": "eae6ca"
+      },
+      "Gravedigger": {
+        "Sequence_num": "8",
+        "Sequence_color": "e9e6d3"
+      },
+      "Corpse Collector": {
+        "Sequence_num": "9",
+        "Sequence_color": "e7e6dc"
+      }
+    }
+  },
+  "Calamity of Destruction": {
+    "Red Priest": {
+      "Red Priest": {
+        "Sequence_num": "0",
+        "Sequence_color": "e3230d"
+      },
+      "Conqueror": {
+        "Sequence_num": "1",
+        "Sequence_color": "e33622"
+      },
+      "Weather Warlock": {
+        "Sequence_num": "2",
+        "Sequence_color": "e34a38"
+      },
+      "War Bishop": {
+        "Sequence_num": "3",
+        "Sequence_color": "e35d4e"
+      },
+      "Iron-Blooded Knight": {
+        "Sequence_num": "4",
+        "Sequence_color": "e47163"
+      },
+      "Reaper": {
+        "Sequence_num": "5",
+        "Sequence_color": "e48479"
+      },
+      "Conspirer": {
+        "Sequence_num": "6",
+        "Sequence_color": "e4988f"
+      },
+      "Pyromaniac": {
+        "Sequence_num": "7",
+        "Sequence_color": "e5aba4"
+      },
+      "Provocator": {
+        "Sequence_num": "8",
+        "Sequence_color": "e5bfba"
+      },
+      "Hunter": {
+        "Sequence_num": "9",
+        "Sequence_color": "e5d2d0"
+      }
+    },
+    "Demoness": {
+      "Demoness": {
+        "Sequence_num": "0",
+        "Sequence_color": "c27ee7"
+      },
+      "Apocalypse": {
+        "Sequence_num": "1",
+        "Sequence_color": "c588e6"
+      },
+      "Catastrophe": {
+        "Sequence_num": "2",
+        "Sequence_color": "c992e6"
+      },
+      "Unaging": {
+        "Sequence_num": "3",
+        "Sequence_color": "cc9de6"
+      },
+      "Despair": {
+        "Sequence_num": "4",
+        "Sequence_color": "d0a7e6"
+      },
+      "Afflictions": {
+        "Sequence_num": "5",
+        "Sequence_color": "d4b2e6"
+      },
+      "Pleasure": {
+        "Sequence_num": "6",
+        "Sequence_color": "d7bce6"
+      },
+      "Witch": {
+        "Sequence_num": "7",
+        "Sequence_color": "dbc6e6"
+      },
+      "Instigator": {
+        "Sequence_num": "8",
+        "Sequence_color": "ded1e6"
+      },
+      "Assassin": {
+        "Sequence_num": "9",
+        "Sequence_color": "e2dbe6"
+      }
+    }
+  },
+  "Demon of Knowledge": {
+    "Paragon": {
+      "Paragon": {
+        "Sequence_num": "0",
+        "Sequence_color": "faab3d"
+      },
+      "Luminary": {
+        "Sequence_num": "1",
+        "Sequence_color": "f8b04d"
+      },
+      "Knowledge Magister": {
+        "Sequence_num": "2",
+        "Sequence_color": "f6b65e"
+      },
+      "Arcane Scholar": {
+        "Sequence_num": "3",
+        "Sequence_color": "f4bc6f"
+      },
+      "Alchemist": {
+        "Sequence_num": "4",
+        "Sequence_color": "f2c280"
+      },
+      "Astronomer": {
+        "Sequence_num": "5",
+        "Sequence_color": "f0c891"
+      },
+      "Machinery Specialist": {
+        "Sequence_num": "6",
+        "Sequence_color": "eecea2"
+      },
+      "Appraiser": {
+        "Sequence_num": "7",
+        "Sequence_color": "ecd4b3"
+      },
+      "Archaeologist": {
+        "Sequence_num": "8",
+        "Sequence_color": "eadac4"
+      },
+      "Savant": {
+        "Sequence_num": "9",
+        "Sequence_color": "e8e0d5"
+      }
+    },
+    "Hermit": {
+      "Hermit": {
+        "Sequence_num": "0",
+        "Sequence_color": "c9a9db"
+      },
+      "Knowledge Emperor": {
+        "Sequence_num": "1",
+        "Sequence_color": "cbafdc"
+      },
+      "Sage": {
+        "Sequence_num": "2",
+        "Sequence_color": "ceb5dd"
+      },
+      "Clairvoyant": {
+        "Sequence_num": "3",
+        "Sequence_color": "d1bbde"
+      },
+      "Mysticologist": {
+        "Sequence_num": "4",
+        "Sequence_color": "d4c1df"
+      },
+      "Constellations Master": {
+        "Sequence_num": "5",
+        "Sequence_color": "d7c7e0"
+      },
+      "Scrolls Professor": {
+        "Sequence_num": "6",
+        "Sequence_color": "dacde1"
+      },
+      "Warlock": {
+        "Sequence_num": "7",
+        "Sequence_color": "ddd3e2"
+      },
+      "Melee Scholar": {
+        "Sequence_num": "8",
+        "Sequence_color": "e0d9e3"
+      },
+      "Mystery Pryer": {
+        "Sequence_num": "9",
+        "Sequence_color": "e3dfe4"
+      }
+    }
+  },
+  "Key of Light": {
+    "Wheel of Fortune": {
+      "Wheel of Fortune": {
+        "Sequence_num": "0",
+        "Sequence_color": "09aa99"
+      },
+      "Snake of Mercury": {
+        "Sequence_num": "1",
+        "Sequence_color": "1fb0a0"
+      },
+      "Soothsayer": {
+        "Sequence_num": "2",
+        "Sequence_color": "35b6a8"
+      },
+      "Chaoswalker": {
+        "Sequence_num": "3",
+        "Sequence_color": "4bbcb0"
+      },
+      "Misfortune Mage": {
+        "Sequence_num": "4",
+        "Sequence_color": "61c2b7"
+      },
+      "Winner": {
+        "Sequence_num": "5",
+        "Sequence_color": "77c8bf"
+      },
+      "Calamity Priest": {
+        "Sequence_num": "6",
+        "Sequence_color": "8dcec7"
+      },
+      "Lucky One": {
+        "Sequence_num": "7",
+        "Sequence_color": "a3d4ce"
+      },
+      "Robot": {
+        "Sequence_num": "8",
+        "Sequence_color": "b9dad6"
+      },
+      "Monster": {
+        "Sequence_num": "9",
+        "Sequence_color": "cfe0de"
+      }
+    }
+  },
+  "Goddess of Origin": {
+    "Moon": {
+      "Moon": {
+        "Sequence_num": "0",
+        "Sequence_color": "d11a4d"
+      },
+      "Beauty Goddess": {
+        "Sequence_num": "1",
+        "Sequence_color": "d32e5c"
+      },
+      "Life-Giver": {
+        "Sequence_num": "2",
+        "Sequence_color": "d5426b"
+      },
+      "High Summoner": {
+        "Sequence_num": "3",
+        "Sequence_color": "d7577a"
+      },
+      "Shaman King": {
+        "Sequence_num": "4",
+        "Sequence_color": "d96b8a"
+      },
+      "Scarlet Scholar": {
+        "Sequence_num": "5",
+        "Sequence_color": "db8099"
+      },
+      "Potions Professor": {
+        "Sequence_num": "6",
+        "Sequence_color": "dd94a8"
+      },
+      "Vampire": {
+        "Sequence_num": "7",
+        "Sequence_color": "dfa8b8"
+      },
+      "Beast Tamer": {
+        "Sequence_num": "8",
+        "Sequence_color": "e1bdc7"
+      },
+      "Apothecary": {
+        "Sequence_num": "9",
+        "Sequence_color": "e3d1d6"
+      }
+    },
+    "Mother": {
+      "Mother": {
+        "Sequence_num": "0",
+        "Sequence_color": "388f4d"
+      },
+      "Naturewalker": {
+        "Sequence_num": "1",
+        "Sequence_color": "49975c"
+      },
+      "Desolate Matriarch": {
+        "Sequence_num": "2",
+        "Sequence_color": "5aa06b"
+      },
+      "Pallbearer": {
+        "Sequence_num": "3",
+        "Sequence_color": "6ca97a"
+      },
+      "Ancient Metallurgist": {
+        "Sequence_num": "4",
+        "Sequence_color": "7db18a"
+      },
+      "Druid": {
+        "Sequence_num": "5",
+        "Sequence_color": "8fba99"
+      },
+      "Biologist": {
+        "Sequence_num": "6",
+        "Sequence_color": "a0c3a8"
+      },
+      "Harvest Priest": {
+        "Sequence_num": "7",
+        "Sequence_color": "b1cbb8"
+      },
+      "Doctor": {
+        "Sequence_num": "8",
+        "Sequence_color": "c3d4c7"
+      },
+      "Planter": {
+        "Sequence_num": "9",
+        "Sequence_color": "d4ddd6"
+      }
+    }
+  },
+  "The Anarchy": {
+    "Justiciar": {
+      "Justiciar": {
+        "Sequence_num": "0",
+        "Sequence_color": "d0c067"
+      },
+      "Hand of Order": {
+        "Sequence_num": "1",
+        "Sequence_color": "d2c373"
+      },
+      "Balancer": {
+        "Sequence_num": "2",
+        "Sequence_color": "d4c780"
+      },
+      "Chaos Hunter": {
+        "Sequence_num": "3",
+        "Sequence_color": "d6cb8d"
+      },
+      "Imperative Mage": {
+        "Sequence_num": "4",
+        "Sequence_color": "d8cf99"
+      },
+      "Discipline Paladin": {
+        "Sequence_num": "5",
+        "Sequence_color": "dbd3a6"
+      },
+      "Judge": {
+        "Sequence_num": "6",
+        "Sequence_color": "ddd6b3"
+      },
+      "Interrogator": {
+        "Sequence_num": "7",
+        "Sequence_color": "dfdabf"
+      },
+      "Sheriff": {
+        "Sequence_num": "8",
+        "Sequence_color": "e1decc"
+      },
+      "Arbiter": {
+        "Sequence_num": "9",
+        "Sequence_color": "e3e2d9"
+      }
+    },
+    "Black Emperor": {
+      "Black Emperor": {
+        "Sequence_num": "0",
+        "Sequence_color": "000000"
+      },
+      "Prince of Abolition": {
+        "Sequence_num": "1",
+        "Sequence_color": "171717"
+      },
+      "Duke of Entropy": {
+        "Sequence_num": "2",
+        "Sequence_color": "2e2e2e"
+      },
+      "Frenzied Mage": {
+        "Sequence_num": "3",
+        "Sequence_color": "454545"
+      },
+      "Earl of the Fallen": {
+        "Sequence_num": "4",
+        "Sequence_color": "5c5c5c"
+      },
+      "Mentor of Disorder": {
+        "Sequence_num": "5",
+        "Sequence_color": "737373"
+      },
+      "Baron of Corruption": {
+        "Sequence_num": "6",
+        "Sequence_color": "8a8a8a"
+      },
+      "Briber": {
+        "Sequence_num": "7",
+        "Sequence_color": "a1a1a1"
+      },
+      "Barbarian": {
+        "Sequence_num": "8",
+        "Sequence_color": "b8b8b8"
+      },
+      "Lawyer": {
+        "Sequence_num": "9",
+        "Sequence_color": "cfcfcf"
+      }
+    }
+  },
+  "Father of Devils": {
+    "Chained": {
+      "Chained": {
+        "Sequence_num": "0",
+        "Sequence_color": "a62eb2"
+      },
+      "Abomination": {
+        "Sequence_num": "1",
+        "Sequence_color": "ac40b7"
+      },
+      "Ancient Bane": {
+        "Sequence_num": "2",
+        "Sequence_color": "b252bc"
+      },
+      "Disciple of Silence": {
+        "Sequence_num": "3",
+        "Sequence_color": "b965c1"
+      },
+      "Puppet": {
+        "Sequence_num": "4",
+        "Sequence_color": "bf77c6"
+      },
+      "Wraith": {
+        "Sequence_num": "5",
+        "Sequence_color": "c68acc"
+      },
+      "Zombie": {
+        "Sequence_num": "6",
+        "Sequence_color": "cc9cd1"
+      },
+      "Werewolf": {
+        "Sequence_num": "7",
+        "Sequence_color": "d2aed6"
+      },
+      "Lunatic": {
+        "Sequence_num": "8",
+        "Sequence_color": "d9c1db"
+      },
+      "Prisoner": {
+        "Sequence_num": "9",
+        "Sequence_color": "dfd3e0"
+      }
+    },
+    "Abyss": {
+      "Abyss": {
+        "Sequence_num": "0",
+        "Sequence_color": "9e002c"
+      },
+      "Filthy Monarch": {
+        "Sequence_num": "1",
+        "Sequence_color": "a5173e"
+      },
+      "Bloody Archduke": {
+        "Sequence_num": "2",
+        "Sequence_color": "ac2e51"
+      },
+      "Blatherer": {
+        "Sequence_num": "3",
+        "Sequence_color": "b34563"
+      },
+      "Demon": {
+        "Sequence_num": "4",
+        "Sequence_color": "ba5c76"
+      },
+      "Desire Apostle": {
+        "Sequence_num": "5",
+        "Sequence_color": "c27389"
+      },
+      "Devil": {
+        "Sequence_num": "6",
+        "Sequence_color": "c98a9b"
+      },
+      "Serial Killer": {
+        "Sequence_num": "7",
+        "Sequence_color": "d0a1ae"
+      },
+      "Unwinged Angel": {
+        "Sequence_num": "8",
+        "Sequence_color": "d7b8c0"
+      },
+      "Criminal": {
+        "Sequence_num": "9",
+        "Sequence_color": "decfd3"
+      }
+    }
+  }
+}

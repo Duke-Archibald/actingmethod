@@ -1,0 +1,221 @@
+Group,Pathway,Sequence_name,Sequence_num,Sequence_color
+Lord of the Mysteries,Fool,Fool,0,8a6db6
+Lord of the Mysteries,Fool,Attendant of Mysteries,1,9379ba
+Lord of the Mysteries,Fool,Miracle Invoker,2,9c85bf
+Lord of the Mysteries,Fool,Scholar of Yore,3,a591c4
+Lord of the Mysteries,Fool,Bizarro Sorcerer,4,ae9dc9
+Lord of the Mysteries,Fool,Marionettist,5,b8a9ce
+Lord of the Mysteries,Fool,Faceless,6,c1b5d2
+Lord of the Mysteries,Fool,Magician,7,cac1d7
+Lord of the Mysteries,Fool,Clown,8,d3cddc
+Lord of the Mysteries,Fool,Seer,9,dcd9e1
+Lord of the Mysteries,Door,Door,0,3ca9d7
+Lord of the Mysteries,Door,Key of Stars,1,4dafd8
+Lord of the Mysteries,Door,Planeswalker,2,5eb5da
+Lord of the Mysteries,Door,Wanderer,3,6fbbdb
+Lord of the Mysteries,Door,Secrets Sorcerer,4,80c1dd
+Lord of the Mysteries,Door,Traveler,5,91c7de
+Lord of the Mysteries,Door,Scribe,6,a2cde0
+Lord of the Mysteries,Door,Astrologer,7,b3d3e1
+Lord of the Mysteries,Door,Trickmaster,8,c4d9e3
+Lord of the Mysteries,Door,Apprentice,9,d5dfe4
+Lord of the Mysteries,Error,Error,0,7c0dfd
+Lord of the Mysteries,Error,Worm of Time,1,8622fa
+Lord of the Mysteries,Error,Trojan Horse of Destiny,2,9138f8
+Lord of the Mysteries,Error,Mentor of Deceit,3,9b4ef6
+Lord of the Mysteries,Error,Parasite,4,a663f3
+Lord of the Mysteries,Error,Dream Stealer,5,b179f1
+Lord of the Mysteries,Error,Prometheus,6,bb8fef
+Lord of the Mysteries,Error,Cryptologist,7,c6a4ec
+Lord of the Mysteries,Error,Swindler,8,d0baea
+Lord of the Mysteries,Error,Marauder,9,dbd0e8
+God Almighty,Visionary,Visionary,0,d4c49b
+God Almighty,Visionary,Author,1,d5c7a2
+God Almighty,Visionary,Discerner,2,d7caaa
+God Almighty,Visionary,Dream Weaver,3,d9ceb1
+God Almighty,Visionary,Manipulator,4,dbd1b9
+God Almighty,Visionary,Dreamwalker,5,ddd5c0
+God Almighty,Visionary,Hypnotist,6,ded8c8
+God Almighty,Visionary,Psychiatrist,7,e0dbcf
+God Almighty,Visionary,Telepathist,8,e2dfd7
+God Almighty,Visionary,Spectator,9,e4e2de
+God Almighty,Hanged Man,Hanged Man,0,980b1b
+God Almighty,Hanged Man,Dark Angel,1,9f202f
+God Almighty,Hanged Man,Profane Presbyter,2,a73643
+God Almighty,Hanged Man,Trinity Templar,3,af4c57
+God Almighty,Hanged Man,Dark Knight,4,b7626c
+God Almighty,Hanged Man,Shepherd,5,bf7880
+God Almighty,Hanged Man,Rose Bishop,6,c68e94
+God Almighty,Hanged Man,Shadow Ascetic,7,cea4a9
+God Almighty,Hanged Man,Listener,8,d6babd
+God Almighty,Hanged Man,Secrets Supplicant,9,ded0d1
+God Almighty,Sun,Sun,0,ffd414
+God Almighty,Sun,White Angel,1,fcd529
+God Almighty,Sun,Lightseeker,2,fad73e
+God Almighty,Sun,Justice Mentor,3,f7d953
+God Almighty,Sun,Unshadowed,4,f5db68
+God Almighty,Sun,Priest of Light,5,f2dd7d
+God Almighty,Sun,Notary,6,f0de92
+God Almighty,Sun,Solar High Priest,7,ede0a7
+God Almighty,Sun,Light Supplicant,8,ebe2bc
+God Almighty,Sun,Bard,9,e8e4d1
+God Almighty,Tyrant,Tyrant,0,001075
+God Almighty,Tyrant,Thunder God,1,172580
+God Almighty,Tyrant,Calamity,2,2e3a8b
+God Almighty,Tyrant,Sea King,3,455096
+God Almighty,Tyrant,Cataclysmic Interrer,4,5c65a2
+God Almighty,Tyrant,Ocean Songster,5,737bad
+God Almighty,Tyrant,Wind-blessed,6,8a90b8
+God Almighty,Tyrant,Seafarer,7,a1a5c4
+God Almighty,Tyrant,Folk of Rage,8,b8bbcf
+God Almighty,Tyrant,Sailor,9,cfd0da
+God Almighty,White Tower,White Tower,0,ffffff
+God Almighty,White Tower,Omniscient Eye,1,fcfcfc
+God Almighty,White Tower,Wisdom Angel,2,fafafa
+God Almighty,White Tower,Cognizer,3,f7f7f7
+God Almighty,White Tower,Prophet,4,f5f5f5
+God Almighty,White Tower,Mysticism Magister,5,f2f2f2
+God Almighty,White Tower,Polymath,6,f0f0f0
+God Almighty,White Tower,Knowledge Keeper,7,ededed
+God Almighty,White Tower,Student of Ratiocination,8,ebebeb
+God Almighty,White Tower,Reader,9,e8e8e8
+Eternal Darkness,Darkness,Darkness,0,6a1cca
+Eternal Darkness,Darkness,Knight of Misfortune,1,7630cc
+Eternal Darkness,Darkness,Servant of Concealment,2,8244cf
+Eternal Darkness,Darkness,Horror Bishop,3,8f58d2
+Eternal Darkness,Darkness,Night Watcher,4,9b6cd5
+Eternal Darkness,Darkness,Spirit Warlock,5,a881d8
+Eternal Darkness,Darkness,Soul Assurer,6,b495da
+Eternal Darkness,Darkness,Nightmare,7,c0a9dd
+Eternal Darkness,Darkness,Midnight Poet,8,cdbde0
+Eternal Darkness,Darkness,Sleepless,9,d9d1e3
+Eternal Darkness,Twilight Giant,Twilight Giant,0,c75f00
+Eternal Darkness,Twilight Giant,Hand of God,1,ca6c17
+Eternal Darkness,Twilight Giant,Glory,2,cd7a2e
+Eternal Darkness,Twilight Giant,Silver Knight,3,d08745
+Eternal Darkness,Twilight Giant,Demon Hunter,4,d3955c
+Eternal Darkness,Twilight Giant,Guardian,5,d6a273
+Eternal Darkness,Twilight Giant,Dawn Paladin,6,d9b08a
+Eternal Darkness,Twilight Giant,Weapon Master,7,dcbda1
+Eternal Darkness,Twilight Giant,Pugilist,8,dfcbb8
+Eternal Darkness,Twilight Giant,Warrior,9,e2d8cf
+Eternal Darkness,Death,Death,0,f5e98a
+Eternal Darkness,Death,Pale Emperor,1,f3e893
+Eternal Darkness,Death,Death Consul,2,f2e89c
+Eternal Darkness,Death,Ferryman,3,f0e8a5
+Eternal Darkness,Death,Undying,4,efe7ae
+Eternal Darkness,Death,Gatekeeper,5,ede7b8
+Eternal Darkness,Death,Spirit Guide,6,ece7c1
+Eternal Darkness,Death,Spirit Medium,7,eae6ca
+Eternal Darkness,Death,Gravedigger,8,e9e6d3
+Eternal Darkness,Death,Corpse Collector,9,e7e6dc
+Calamity of Destruction,Red Priest,Red Priest,0,e3230d
+Calamity of Destruction,Red Priest,Conqueror,1,e33622
+Calamity of Destruction,Red Priest,Weather Warlock,2,e34a38
+Calamity of Destruction,Red Priest,War Bishop,3,e35d4e
+Calamity of Destruction,Red Priest,Iron-Blooded Knight,4,e47163
+Calamity of Destruction,Red Priest,Reaper,5,e48479
+Calamity of Destruction,Red Priest,Conspirer,6,e4988f
+Calamity of Destruction,Red Priest,Pyromaniac,7,e5aba4
+Calamity of Destruction,Red Priest,Provocator,8,e5bfba
+Calamity of Destruction,Red Priest,Hunter,9,e5d2d0
+Calamity of Destruction,Demoness,Demoness,0,c27ee7
+Calamity of Destruction,Demoness,Apocalypse,1,c588e6
+Calamity of Destruction,Demoness,Catastrophe,2,c992e6
+Calamity of Destruction,Demoness,Unaging,3,cc9de6
+Calamity of Destruction,Demoness,Despair,4,d0a7e6
+Calamity of Destruction,Demoness,Afflictions,5,d4b2e6
+Calamity of Destruction,Demoness,Pleasure,6,d7bce6
+Calamity of Destruction,Demoness,Witch,7,dbc6e6
+Calamity of Destruction,Demoness,Instigator,8,ded1e6
+Calamity of Destruction,Demoness,Assassin,9,e2dbe6
+Demon of Knowledge,Paragon,Paragon,0,faab3d
+Demon of Knowledge,Paragon,Luminary,1,f8b04d
+Demon of Knowledge,Paragon,Knowledge Magister,2,f6b65e
+Demon of Knowledge,Paragon,Arcane Scholar,3,f4bc6f
+Demon of Knowledge,Paragon,Alchemist,4,f2c280
+Demon of Knowledge,Paragon,Astronomer,5,f0c891
+Demon of Knowledge,Paragon,Machinery Specialist,6,eecea2
+Demon of Knowledge,Paragon,Appraiser,7,ecd4b3
+Demon of Knowledge,Paragon,Archaeologist,8,eadac4
+Demon of Knowledge,Paragon,Savant,9,e8e0d5
+Demon of Knowledge,Hermit,Hermit,0,c9a9db
+Demon of Knowledge,Hermit,Knowledge Emperor,1,cbafdc
+Demon of Knowledge,Hermit,Sage,2,ceb5dd
+Demon of Knowledge,Hermit,Clairvoyant,3,d1bbde
+Demon of Knowledge,Hermit,Mysticologist,4,d4c1df
+Demon of Knowledge,Hermit,Constellations Master,5,d7c7e0
+Demon of Knowledge,Hermit,Scrolls Professor,6,dacde1
+Demon of Knowledge,Hermit,Warlock,7,ddd3e2
+Demon of Knowledge,Hermit,Melee Scholar,8,e0d9e3
+Demon of Knowledge,Hermit,Mystery Pryer,9,e3dfe4
+Key of Light,Wheel of Fortune,Wheel of Fortune,0,09aa99
+Key of Light,Wheel of Fortune,Snake of Mercury,1,1fb0a0
+Key of Light,Wheel of Fortune,Soothsayer,2,35b6a8
+Key of Light,Wheel of Fortune,Chaoswalker,3,4bbcb0
+Key of Light,Wheel of Fortune,Misfortune Mage,4,61c2b7
+Key of Light,Wheel of Fortune,Winner,5,77c8bf
+Key of Light,Wheel of Fortune,Calamity Priest,6,8dcec7
+Key of Light,Wheel of Fortune,Lucky One,7,a3d4ce
+Key of Light,Wheel of Fortune,Robot,8,b9dad6
+Key of Light,Wheel of Fortune,Monster,9,cfe0de
+Goddess of Origin,Moon,Moon,0,d11a4d
+Goddess of Origin,Moon,Beauty Goddess,1,d32e5c
+Goddess of Origin,Moon,Life-Giver,2,d5426b
+Goddess of Origin,Moon,High Summoner,3,d7577a
+Goddess of Origin,Moon,Shaman King,4,d96b8a
+Goddess of Origin,Moon,Scarlet Scholar,5,db8099
+Goddess of Origin,Moon,Potions Professor,6,dd94a8
+Goddess of Origin,Moon,Vampire,7,dfa8b8
+Goddess of Origin,Moon,Beast Tamer,8,e1bdc7
+Goddess of Origin,Moon,Apothecary,9,e3d1d6
+Goddess of Origin,Mother,Mother,0,388f4d
+Goddess of Origin,Mother,Naturewalker,1,49975c
+Goddess of Origin,Mother,Desolate Matriarch,2,5aa06b
+Goddess of Origin,Mother,Pallbearer,3,6ca97a
+Goddess of Origin,Mother,Ancient Metallurgist,4,7db18a
+Goddess of Origin,Mother,Druid,5,8fba99
+Goddess of Origin,Mother,Biologist,6,a0c3a8
+Goddess of Origin,Mother,Harvest Priest,7,b1cbb8
+Goddess of Origin,Mother,Doctor,8,c3d4c7
+Goddess of Origin,Mother,Planter,9,d4ddd6
+The Anarchy,Justiciar,Justiciar,0,d0c067
+The Anarchy,Justiciar,Hand of Order,1,d2c373
+The Anarchy,Justiciar,Balancer,2,d4c780
+The Anarchy,Justiciar,Chaos Hunter,3,d6cb8d
+The Anarchy,Justiciar,Imperative Mage,4,d8cf99
+The Anarchy,Justiciar,Discipline Paladin,5,dbd3a6
+The Anarchy,Justiciar,Judge,6,ddd6b3
+The Anarchy,Justiciar,Interrogator,7,dfdabf
+The Anarchy,Justiciar,Sheriff,8,e1decc
+The Anarchy,Justiciar,Arbiter,9,e3e2d9
+The Anarchy,Black Emperor,Black Emperor,0,000000
+The Anarchy,Black Emperor,Prince of Abolition,1,171717
+The Anarchy,Black Emperor,Duke of Entropy,2,2e2e2e
+The Anarchy,Black Emperor,Frenzied Mage,3,454545
+The Anarchy,Black Emperor,Earl of the Fallen,4,5c5c5c
+The Anarchy,Black Emperor,Mentor of Disorder,5,737373
+The Anarchy,Black Emperor,Baron of Corruption,6,8a8a8a
+The Anarchy,Black Emperor,Briber,7,a1a1a1
+The Anarchy,Black Emperor,Barbarian,8,b8b8b8
+The Anarchy,Black Emperor,Lawyer,9,cfcfcf
+Father of Devils,Chained,Chained,0,a62eb2
+Father of Devils,Chained,Abomination,1,ac40b7
+Father of Devils,Chained,Ancient Bane,2,b252bc
+Father of Devils,Chained,Disciple of Silence,3,b965c1
+Father of Devils,Chained,Puppet,4,bf77c6
+Father of Devils,Chained,Wraith,5,c68acc
+Father of Devils,Chained,Zombie,6,cc9cd1
+Father of Devils,Chained,Werewolf,7,d2aed6
+Father of Devils,Chained,Lunatic,8,d9c1db
+Father of Devils,Chained,Prisoner,9,dfd3e0
+Father of Devils,Abyss,Abyss,0,9e002c
+Father of Devils,Abyss,Filthy Monarch,1,a5173e
+Father of Devils,Abyss,Bloody Archduke,2,ac2e51
+Father of Devils,Abyss,Blatherer,3,b34563
+Father of Devils,Abyss,Demon,4,ba5c76
+Father of Devils,Abyss,Desire Apostle,5,c27389
+Father of Devils,Abyss,Devil,6,c98a9b
+Father of Devils,Abyss,Serial Killer,7,d0a1ae
+Father of Devils,Abyss,Unwinged Angel,8,d7b8c0
+Father of Devils,Abyss,Criminal,9,decfd3
