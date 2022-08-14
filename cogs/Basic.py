@@ -1,7 +1,7 @@
 import random
 import sqlite3
 
-from resources import setupFile
+from cogs import setupFile
 import nextcord
 from nextcord import Interaction, SlashOption
 from nextcord.ext import commands
@@ -40,12 +40,7 @@ class Basic(commands.Cog):
 
             await role1.delete()
 
-    @nextcord.slash_command(name="setup", guild_ids=[guildID], description="create channels")
-    @commands.has_any_role(*["Admin"])
-    async def setup(self, interaction: Interaction):
-        await setupFile.setup_bot_role(interaction)
-        await setupFile.channel_setup(interaction)
-        await setupFile.createRoles(interaction)
+
 
     @nextcord.slash_command(name="drop",
                             guild_ids=[guildID],
@@ -56,7 +51,6 @@ class Basic(commands.Cog):
         view = DropDownView()
         channel = nextcord.utils.get(interaction.guild.channels, name="pathways-menu")
         message = await channel.send("choose your pathway", view=view)
-        self.conn
         # with open("test.txt", "w", encoding="utf8") as f:
         #     f.write(str(message.id))
         #     f.write("\n")

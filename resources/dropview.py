@@ -1,7 +1,5 @@
 import random
 import sqlite3
-
-from resources import setupFile
 import nextcord
 from nextcord import Interaction, SlashOption
 from nextcord.ext import commands
@@ -18,8 +16,6 @@ class DropDown(nextcord.ui.Select):
         print(self.pathways)
         selectoption = []
         for pathway in self.pathways:
-            # print(pathway)
-            # print(type(pathway))
             selectoption.append(nextcord.SelectOption(label=pathway))
         super().__init__(placeholder="choose one pathway", options=selectoption,)
 
