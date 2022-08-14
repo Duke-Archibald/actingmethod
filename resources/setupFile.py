@@ -4,7 +4,7 @@ import sqlite3
 import nextcord
 from nextcord import Interaction, SlashOption
 from nextcord.ext import commands
-
+conn = sqlite3.connect(r".\resources\acting_method.db")
 async def setup_bot_role(interaction):
     Rname = "selfBot"
 
@@ -22,9 +22,6 @@ async def createRoles(interaction):
     x = 0
 
     await interaction.response.defer()
-    conn = sqlite3.connect(r"..\resources\acting_method.db")
-    print(conn)
-    print("Opened database successfully")
 
     sequencesCursor = conn.execute("SELECT sequences_name, sequences_color,sequences_num from sequences")
     pathway = "none"
@@ -75,8 +72,10 @@ async def channel_setup(interaction):
         guildChannelDict[channel.name] = channel.id
     if categoryName not in guildChannelList:
         category = await interaction.guild.create_category(name=categoryName)
+        conn.execute("INSERT INTO channels(channels_id,channels_name,channels_channel_id,channels_guild_id,channels_category_id) VALUES();")
     else:
-        category = interaction.get_channel(guildChannelDict[categoryName])
+        category = interaction.guild.get_channel(guildChannelDict[categoryName])
+        conn.execute("INSERT INTO channels(channels_id,channels_name,channels_channel_id,channels_guild_id,channels_category_id) VALUES();")
     for channelname in toAddChannelList:
         if channelname not in guildChannelList:
             await interaction.guild.create_text_channel(name=channelname, category=category)

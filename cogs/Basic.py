@@ -30,7 +30,7 @@ class Basic(commands.Cog):
         # await interaction.response.send_message("done")
 
     @nextcord.slash_command(name="deltest", guild_ids=[guildID],
-                            description="delete ALL roles use carefully will be removed after testing")
+                            description="delete ALL roles, use carefully, will be removed after testing")
     async def deltest(self, interaction: Interaction):
         for role1 in [role for role in interaction.guild.roles]:
             if role1.name == "@everyone":
@@ -52,9 +52,11 @@ class Basic(commands.Cog):
                             description="dropdown test")
     @commands.has_any_role(*["Admin"])
     async def drop(self, interaction: Interaction):
+        print("drop")
         view = DropDownView()
         channel = nextcord.utils.get(interaction.guild.channels, name="pathways-menu")
         message = await channel.send("choose your pathway", view=view)
+        self.conn
         # with open("test.txt", "w", encoding="utf8") as f:
         #     f.write(str(message.id))
         #     f.write("\n")
